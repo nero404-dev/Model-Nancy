@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Model Nancy's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="pictures/500254537_17960996735933517_6421574207635091864_n.-cropped-rounded.png">
+</head>
+<body>
+    <header class="header" id="hero">
+        <nav>
+            <div class="col col-2">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col col-3">
+                <!-- <a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a> -->
+                <a href="https://www.instagram.com/model.nancyy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <!-- <a href="https://www.linkedin.com/in//"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <div class="in-intro">
+            <div class="title">
+                <!-- <h1>Nancy Tarhini</h1>
+                <h4>Model</h4> -->
+                <h1>Model Nancy</h1>
+                <h4>Lebanese</h4>
+                <p>Welcome to my personal <u>Modeling Portfolio</u>, where elegance meets artistry! Explore captivating visuals that highlight my versatility and unique style, perfect for <u>photo sessions</u>, <u>advertisements</u>, and more. Let's collaborate to create stunning imagery that truly captures your vision! </p>
+                <div class="btn">
+                    <a href="gallery.html"><button>Catch A Look <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="resp-header">
+        <nav class="resp-nav">
+            <div class="dashes">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+        <div class="resp-intro">
+            <div class="resp-in-intro">
+                <div class="resp-title">
+                    <!-- <h1>Nancy Tarhini</h1>
+                    <h4>Model</h4> -->
+                    <h1>Model Nancy</h1>
+                    <h4>Lebanese</h4>
+                    <p>Welcome to my personal <u>Modeling Portfolio</u>, where elegance meets artistry! Explore captivating visuals that highlight my versatility and unique style, perfect for <u>photo sessions</u>, <u>advertisements</u>, and more. Let's collaborate to create stunning imagery that truly captures your vision! </p>
+                    <div class="btn">
+                        <a href="gallery.html"><button>Catch A Look <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+
+        <hr id="resp-hr">
+
+        <div class="resp-social-links">
+            <a href="https://www.instagram.com/model.nancyy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <section class="about" id="about">
+            <div class="row">
+                <div class="col col-1">
+                    <img src="pictures/469746411_551830767776474_1308213167878662582_n.-cropped.jpg" alt="Model Nancy's Profile Picture" title="Model Nancy's Profile Picture">
+                </div>
+                <div class="col col-2">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate <u>Lebanese Model</u> with a love for bringing concepts to life through stunning visuals. My journey in modeling has allowed me to explore various <u>styles</u>, <u>from fashion to editorial</u>, and I approach each project with <u>enthusiasm and dedication</u>. I believe that every photograph tells a story and offers a unique opportunity to connect with others. </p>
+                    <p>With experience in multiple campaigns and collaborations, I am constantly evolving and <u>honing my craft</u>. I thrive on <u>teamwork</u> and embrace new challenges that expand my creative horizons. My goal is to create <u>impactful imagery</u> that resonates with audiences and leaves a lasting impression. </p>
+                    <p><b>Thank you</b> for visiting my <u>portfolio</u>, and I look forward to sharing <u>my journey</u> and connecting with you! </p>
+                </div>
+                <div class="col col-3">
+                    <img src="pictures/469746411_551830767776474_1308213167878662582_n.-cropped.jpg" alt="Model Nancy's Profile Picture" title="Model Nancy's Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <hr id="between-hr">
+
+        <section class="gallery" id="gallery">
+            <h2>Featured Gallery</h2>
+        
+            <div class="cats" id="myDiv">
+                <div class="cat">
+                    <img src="gallery/gallery_pictures/469727024_936871804537895_9204084506348586069_n..jpg" onclick="openModal(this.src)">
+                    <video playsinline controls loop>
+                        <source src="gallery/gallery_videos/AQM-5XuW6NHEy3xF6B63x69oMkoZNT-UIN_i7jdM7Ht7Ur0buU__9SZPc2R4OsSafPR4z59xdWiE7p1gRWIG4Gs8AZsUGaoqcOcOz68..mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="gallery/gallery_pictures/469824576_923524589752901_6718954803324148922_n..jpg" onclick="openModal(this.src)">
+                    <video playsinline controls loop>
+                        <source src="gallery/gallery_videos/AQNNSSkEnWiLG277mMW0OfCgxowe4cFb7bpL7lQapHvZk5nPWstuyYD6nhx-LOLwW5ga8av413mu2lG9EOrqJS-ypLMdHsEXL3vjMNw..mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="gallery/gallery_pictures/470954665_553078277699687_2908654989901442850_n..jpg" onclick="openModal(this.src)">
+                    <img src="gallery/gallery_pictures/470956594_608803968231571_1866989919263855761_n..jpg" onclick="openModal(this.src)">
+                    <video playsinline controls loop>
+                        <source src="gallery/gallery_videos/AQMicGZdXgV2gB0DFnKWM4haq1SicsjawLLm12tbqUxN3xZtd0939a0khoS-WwbtO2IswxNpe_dahL3iqnJwEcxmL7LJHQz6V8BcGw4..mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video playsinline controls loop>
+                        <source src="gallery/gallery_videos/AQMYV_M6buHZ8BbixyHTsLrRVIuO82v7m9TtK4XF5HZZlGy-Z8S7qwjtECykRhvhfymQwZWHrZCO6TnAAs3hIHD9ExaKFIOf8BK36yM..mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="gallery/gallery_pictures/473788642_17946182801933517_186730768709186906_n..jpg" onclick="openModal(this.src)">
+                    <img src="gallery/gallery_pictures/474009792_17948415554933517_8220940006917560393_n..jpg" onclick="openModal(this.src)">
+                    <img src="gallery/gallery_pictures/475730304_17948040083933517_118524435905221802_n..jpg" onclick="openModal(this.src)">
+                    <img src="gallery/gallery_pictures/475757980_17948040065933517_7595639066329168856_n..jpg" onclick="openModal(this.src)">
+                    <video playsinline controls loop>
+                        <source src="gallery/gallery_videos/AQP7X7AKb5dAjsBirpnEZPkThu8y79NyJtlknruTGtVe8E8MoBkeIJSQOHQQ7e7FTKwD_py0cGpGz4NDJGCbo9I6RhQfWqrXbCM6giI..mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="gallery/gallery_pictures/475992253_17948415443933517_6318625251693109981_n..jpg" onclick="openModal(this.src)">
+                </div>
+            </div>
+        
+            <div class="btn">
+                <a href="gallery.html"><button>View All Gallery <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
+            </div>
+        
+            <!-- Modal for displaying images -->
+            <div id="imageModal" class="modal" onclick="closeModal()">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+            </div>
+        </section>   
+        
+        <hr id="between-hr">
+
+        <section class="testimonials" id="testimonials">
+            <h2>Testimonials</h2>
+
+            <!-- Testimonials Grid -->
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="profile-image">
+                        <img src="pictures/random-1.jpeg" alt="[Director's Name]" class="profile-img">
+                    </div>
+                    <div class="card-content">
+                        <div class="quote-icons">" "</div>
+                        <p class="testimonial-text">Working with <b>Model Nancy</b> was an incredible experience! Her grace and poise on the runway are matched only by her vibrant personality off it. Every moment spent collaborating with her was filled with creativity and inspiration, making the entire process enjoyable and seamless. </p>
+                        <div class="quote-icons">" "</div>
+                        <div class="author-info">
+                            <h3 class="author-name">[Director's Name]</h3>
+                            <p class="author-title">Director of [Project Title]</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="profile-image">
+                        <img src="pictures/random-2.jpeg" alt="[Co-Actor's Name]" class="profile-img">
+                    </div>
+                    <div class="card-content">
+                        <div class="quote-icons">" "</div>
+                        <p class="testimonial-text">Her ability to embody different styles and concepts is truly remarkable. Whether it's high fashion or casual wear, she brings a unique flair that captivates everyone around her. It's no wonder she has quickly become a favorite among designers and photographers alike. </p>
+                        <div class="quote-icons">" "</div>
+                        <div class="author-info">
+                            <h3 class="author-name">[Co-Model's Name]</h3>
+                            <p class="author-title">Co-Model in [Project Title]</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="profile-image">
+                        <img src="pictures/random-3.png" alt="[Mentor's Name]" class="profile-img">
+                    </div>
+                    <div class="card-content">
+                        <div class="quote-icons">" "</div>
+                        <p class="testimonial-text">I am excited to see where her journey takes her next! With her talent and determination, there's no limit to what she can achieve. I have no doubt that she will continue to shine brightly in the modeling industry and beyond. </p>
+                        <div class="quote-icons">" "</div>
+                        <div class="author-info">
+                            <h3 class="author-name">[Mentor's Name]</h3>
+                            <p class="author-title">Modeling Coach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer">
+            <div class="row-1">
+                <div class="col col-1">
+                    <a href="index.html"><img src="pictures/500254537_17960996735933517_6421574207635091864_n.-cropped-rounded.png" alt="Model Nancy's Picture"></a>
+                </div>
+                <div class="col col-2">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Get In Touch - Contact</h3>
+                    <a href="mailto:nero404.developer@gmail.com">nero404.developer@gmail.com</a>
+                    <a href="tel:+96176134251">+961 76 134 251</a>
+                    <a href="https://maps.google.com/">Beirut, Lebanon</a>
+                </div>
+                <div class="col col-3">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Social Media</h3>
+                    <a href="https://www.instagram.com/model.nancyy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+                <div class="col col-4">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Navigation</h3>
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+            </div>
+
+            <div class="row-2">
+                <p>&copy; 2025 • Model Nancy | All Rights Reserved. <br>Designed & Developed By <a href="https://nero404-dev.github.io/nero404-portfolio/">nero404</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js resp nav -->
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "90%";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <script>
+        let currentImageIndex = 0;
+        const images = [];
+    
+        function openModal(src) {
+            const modal = document.getElementById("imageModal");
+            const modalImage = document.getElementById("modalImage");
+            modal.style.display = "block";
+            modalImage.src = src;
+    
+            // Store images for navigation
+            const imgElements = document.querySelectorAll('.cat img');
+            images.length = 0; // Clear previous images
+            imgElements.forEach((img, index) => {
+                images.push(img.src);
+                if (img.src === src) {
+                    currentImageIndex = index;
+                }
+            });
+        }
+    
+        function closeModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+    </script>
+</body>
+</html>
